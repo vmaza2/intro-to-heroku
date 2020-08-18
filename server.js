@@ -24,7 +24,7 @@ var propertyTable = 'property__c';
 var favoriteTable = 'favorite__c';
 var brokerTable = 'broker__c';
 
-// setup the demo data if needed
+// setup the demo data if needed - vlad made edits
 client.query('SELECT * FROM salesforce.broker__c', function(error, data) {
   if (error !== null) {
     client.query('SELECT * FROM broker__c', function(error, data) {
